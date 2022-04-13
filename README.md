@@ -16,7 +16,7 @@
   - Java 15
   - Spring Boot (소프트스퀘어드 Template 사용)
   - Gradle
-  - Spring Data JDBC 
+  - Spring JDBC 
 #### `Environment`  
   - AWS EC2 (Ubuntu 20.04)  
 #### `Database`  
