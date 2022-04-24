@@ -25,7 +25,7 @@
 
 </br>
 
-## 3. ERD 설계
+## 3. ERD 설계도
 ![Youtube_modeling(Final)](https://user-images.githubusercontent.com/62496215/157594667-bdfef997-3913-4eb5-bda8-f696f0c790a7.png)
 
 
