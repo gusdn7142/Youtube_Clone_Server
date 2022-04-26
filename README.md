@@ -21,7 +21,7 @@
   - AWS EC2 (Ubuntu 20.04)  
   - Nginx
 #### `Database`  
-  - RDS (Mysql 8.0)
+  - AWS RDS (Mysql 8.0)
 
 </br>
 
