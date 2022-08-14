@@ -9,8 +9,8 @@
 - 📰 [API 명세서](https://docs.google.com/spreadsheets/d/1JuW5yt8tvZ3sx_hiWTesqtDn_ihmU_4J/edit#gid=514363059 )
 - 📦 [ERD 설계도](https://aquerytool.com/aquerymain/index/?rurl=f9df6444-acbe-4991-a7d8-c5f6fd088abd)    
     - 비밀번호 : 738qku    
-- 📁 [디렉토리 구조]: 추가예정
-- 📽 시연 영상 : 추가예정
+- 📁 [디렉토리 구조](https://github.com/gusdn7142/Youtube_Clone_Server/wiki/%F0%9F%93%81-Directory-Structure)
+- 📽 시연 영상 : API 명세서의 postman 시연화면으로 대체
 
 
 </br>
@@ -52,7 +52,7 @@
 
 
 ## 🌟 트러블 슈팅
-- DB 연결 정보, JWT와 PASSWORD 키 값이 노출되지 않도록 .gitignore 파일에 Secret.java, application.xml 추가
+- DB 연결 정보와 JWT, PASSWORD 키 값 등이 외부에 노출되지 않도록 Secret.java, application.xml을 .gitignore 파일에 추가
 - 회원가입 이외에 패스워드 변경시에도 암호화하여 DB에 저장하도록 코드 구현
 
 </br>
