@@ -21,7 +21,6 @@
   - Spring Boot 2.4.2 (소프트스퀘어드 Template 사용)
   - Gradle 6.7.1
   - Spring JDBC 
-  - 
 #### `DevOps`  
   - AWS EC2 (Ubuntu 20.04)  
   - AWS RDS (Mysql 8.0)
@@ -29,6 +28,7 @@
   - GitHub
 #### `Etc`  
   - JWT
+  - postman
 
 </br>
 
