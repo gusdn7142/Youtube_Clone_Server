@@ -21,6 +21,9 @@ public class User {
     private int status;
     private Timestamp crateAt;
     private Timestamp updateAt;
+
+
+
 }
 
 

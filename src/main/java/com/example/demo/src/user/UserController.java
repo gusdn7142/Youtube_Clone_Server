@@ -154,17 +154,17 @@ public class UserController {
      * @return BaseResponse<PostUserRes>  => idx 값 리턴
      */
 
-    /* POST 방식 - Body 사용 - 카카오 회원가입 */
-    @ResponseBody
-    @PostMapping("/kakao")
-    public BaseResponse<PostUserRes> createKakaoUser(@RequestBody PostKakaoUserReq postKakaoUserReq) {   //BaseResponse<PostUserRes>
+                /* POST 방식 - Body 사용 - 카카오 회원가입 */
+        @ResponseBody
+        @PostMapping("/kakao")
+        public BaseResponse<PostUserRes> createKakaoUser(@RequestBody PostKakaoUserReq postKakaoUserReq) {   //BaseResponse<PostUserRes>
 
-        /* 토큰으로 카카오 서버에 사용자 자원 요청*/
-        RestTemplate rt = new RestTemplate();
+            /* 토큰으로 카카오 서버에 사용자 자원 요청*/
+            RestTemplate rt = new RestTemplate();
 
-        //Header 객체 생성
-        HttpHeaders headers = new HttpHeaders();
-        headers.add("Authorization", "Bearer "+ postKakaoUserReq.getAccess_token()) ;     //토큰 입력
+            //Header 객체 생성
+            HttpHeaders headers = new HttpHeaders();
+            headers.add("Authorization", "Bearer "+ postKakaoUserReq.getAccess_token()) ;     //토큰 입력
         headers.add("Content-type", "application/x-www-form-urlencoded;charset=utf-8") ;  //전송한 데이터가 key, value 형태인것을 알려줌
 
         //Header를 엔티티에 담기
@@ -348,6 +348,8 @@ public class UserController {
             }
             //전체 유저 조회
             List<GetUserRes> getUsersRes = userProvider.getUsers();
+
+
             return new BaseResponse<>(getUsersRes);
 
 

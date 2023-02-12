@@ -1,8 +1,32 @@
+
+#default
+.gradle
+.idea
+build/classes
+build/reports
+build/test-results
+build/tmp
+build/bootJarMainClassName
+gradle/
+logs/
+out/
+.DS_Store
+HELP.md
+build.gradle
+gradlew
+gradlew.bat
+settings.gradle
+nohup.out
+
+
+
+
+#RDS Info
 src/main/resources
-src/main/java/com/example/demo/config/secret/Secret.java
-
-out/production/classes/com/example/demo/config/secret/Secret.class
 out/production/resources/application.yml
-
 build/resources/main/application.yml
+
+#Secret Info
+src/main/java/com/example/demo/config/secret/Secret.java
+out/production/classes/com/example/demo/config/secret/Secret.class
 build/classes/java/main/com/example/demo/config/secret/Secret.class

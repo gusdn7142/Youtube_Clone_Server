@@ -144,13 +144,13 @@ public class UserProvider {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //모든 유저 조회 - getUsers()
     public List<GetUserRes> getUsers() throws BaseException{
-        try{  //에러가 없으면 Dao에게 넘겨줌
+//        try{  //에러가 없으면 Dao에게 넘겨줌
             List<GetUserRes> getUserRes = userDao.getUsers();
             return getUserRes;
-        }
-        catch (Exception exception) { //에러가 발생한 경우
-            throw new BaseException(DATABASE_ERROR_USER_INFO); //데이터 베이스 오류를 던져줌
-        }
+//        }
+//        catch (Exception exception) { //에러가 발생한 경우
+//            throw new BaseException(DATABASE_ERROR_USER_INFO); //데이터 베이스 오류를 던져줌
+//        }
     }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
