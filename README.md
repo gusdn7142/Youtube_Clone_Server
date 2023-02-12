@@ -7,8 +7,7 @@
 
 ## 💁‍♂️ Wiki
 - 📰 [API 명세서](https://docs.google.com/spreadsheets/d/1JuW5yt8tvZ3sx_hiWTesqtDn_ihmU_4J/edit#gid=514363059 )
-- 📦 [ERD 설계도](https://aquerytool.com/aquerymain/index/?rurl=f9df6444-acbe-4991-a7d8-c5f6fd088abd)    
-    - 비밀번호 : 738qku    
+- 📦 [ERD 설계도](https://user-images.githubusercontent.com/62496215/157594667-bdfef997-3913-4eb5-bda8-f696f0c790a7.png)      
 - 📁 [디렉토리 구조](https://github.com/gusdn7142/Youtube_Clone_Server/wiki/%F0%9F%93%81-Directory-Structure)
 - 📽 시연 영상 : API 명세서의 postman 시연화면으로 대체
 
